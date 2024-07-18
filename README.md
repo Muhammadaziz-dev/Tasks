@@ -46,5 +46,5 @@ pip install -r requirements.txt
 
 5. Set Up Environment Variables
 
-Create a .env file in the root directory of your project
+Create a .env file in the root directory of your project and set variables
 
