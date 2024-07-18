@@ -25,7 +25,7 @@ class TaskListView(LoginRequiredMixin, View):
             'is_paginated': paginator.num_pages > 1,
             'page_obj': page_obj,
             'paginator': paginator,
-            'query': query,  # Pass the search query to the context
+            'query': query,
         }
         return render(request, 'tasks/task_list.html', context)
 
