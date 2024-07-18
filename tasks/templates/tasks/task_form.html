@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>{% if task %}Update Task{% else %}Create Task{% endif %}</h2>
+
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">{% if task %}Update{% else %}Create{% endif %}</button>
+</form>
+
+<a class="btn btn-secondary mt-3" href="{% url 'tasks:task_list' %}">Back to Task List</a>
+{% endblock %}
