@@ -25,8 +25,8 @@ First, clone the repository from GitHub:
 
 bash
 
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+[git clone https://github.com/yourusername/yourproject.git](https://github.com/Muhammadaziz-dev/Tasks.git)
+cd Tasks
 
 2. Create a Virtual Environment
 
