@@ -39,12 +39,12 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. Install Dependencies
 
-4.Install the required packages from requirements.txt:
+Install the required packages from requirements.txt:
 
 
 pip install -r requirements.txt
 
-5. Set Up Environment Variables
+4. Set Up Environment Variables
 
 Create a .env file in the root directory of your project and set variables
 
